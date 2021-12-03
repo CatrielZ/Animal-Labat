@@ -1,0 +1,182 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/*Movile*/
+body{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1rem;
+}
+.fullscreen{
+	height: 100%;
+	background-image: url(../imagenes/fullscreen3.jpg);
+}
+
+/*HEADER movile*/
+.header{
+	margin-bottom: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff0bb;
+}
+.header__logo.logo{
+	margin-top: 20px;
+}
+
+.header__logo.logo img{
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid #DFDDC6 ;
+	box-sizing: border-box;
+}
+.header__navBar.navBar li{
+	margin: 10px 2rem;
+	padding: 3px;
+	list-style: none;
+}
+
+.header__navBar.navBar a{
+text-decoration: none;
+color: #F05F31;
+
+}
+/*fin header movile*/
+
+.conteiner{
+	display: flex;
+	flex-direction: column ;
+	justify-content: center;
+	align-items: center;
+	color: #F05F31;
+	margin: 30px;
+	font-size: 1rem;
+}
+
+.conteriner__titulo h1{
+	font-size: 1.25;
+	margin: 30px;
+}
+.conteiner__ImagenAnimales img{
+border: 2px solid #F05F31;
+}
+.conteiner__ImagenAnimales h2{
+	margin: 20px;
+	
+	background-color: #DFDDC6;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  background-color:#fff0bb;
+
+}
+.footer ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.footer li{
+	margin-right: 10px;
+}
+
+.footer a{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	text-decoration: none;
+  color:#F05F31;
+
+}
+
+
+@media all and (min-width: 980px){
+	body{
+		font-size: 1.35rem;
+	}
+
+	.header__logo.logo img{
+		width: 100%;
+		max-width: 150px;
+		display: block;
+		transition: all 250ms ease-in-out;
+		
+	}
+	.header__logo.logo:hover img {
+		transform: scale(1.1);		
+		border-radius: 44px;
+
+	}
+		
+	.header__navBar.navBar{
+		list-style-type: none;
+		}
+
+	.header__navBar.navBar li{
+		display: inline-block;
+		margin-right: 50px;
+	}
+
+	.header__navBar.navBar a{
+		color: #F05F31;
+		text-decoration: none;
+	}	
+	.conteiner{
+	margin-top: 150px;
+	}
+	.conteriner__titulo{
+		margin: 30px;
+		padding: 30px;
+		font-size: 30px;
+	  
+	}
+	/*sub titulos del home*/
+.conteriner__subTitulo--perro, .conteriner__subTitulo--gato, .conteriner__subTitulo--cerdo{
+	display: none;
+}
+
+/*GRID IMAGENES ANIMALES*/
+.conteiner__imagenAnimales{
+
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  grid-template-areas:
+  "izq . der"
+  "izq centro der"
+  ". centro .";
+} 
+
+.perroImg{
+	grid-area: izq;
+	transition: all 250ms ease-in-out;
+	margin: 20px;
+
+}
+.gatoImg{
+	grid-area: centro ;		
+	transition: all 250ms ease-in-out;
+	margin: 20px;
+
+
+}
+.gatoImg:hover , .perroImg:hover ,.cerdoImg:hover {
+	transform: scale(1.1);		
+		border-radius: 50px;
+	border: 2px solid #F05F31;
+		}
+
+.cerdoImg{
+	grid-area: der;
+	transition: all 250ms ease-in-out;
+	margin: 20px;
+
+}
+/*fin grid animales*/
+/*Fin contenido HOME escritorio*/
+}
