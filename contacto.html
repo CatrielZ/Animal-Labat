@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--git remote add origin https://github.com/CatrielZ/Animal-Labat.git
-			git push -u origin main-->
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon"  href="imagenes/iconPestaña.png" />
 
-	<title>HOME</title>
+	<title>Contacto</title>
 </head>
 <body>
 	<!--HEADER-->
@@ -45,30 +42,40 @@
 	  </div>
 	</nav>
 	<!--FIN HEADER-->
+	<div class="container-fluid contenidoFullscreen">
+	  	<div class="conteiner contenidoContacto">
+			<div class="row">
+			   <h1 class="tituloContacto textoColorsito">Complete el formulario</h1>			
+			  <div class="col">
+			    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+			  </div>
+			  <div class="col">
+			    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+			  </div>
+			</div>
+			<div class="mb-3">
+			  <label for="exampleFormControlInput1" class="form-label">Email</label>
+			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+			<div class="conteinerContacto__formulario">
+			    <input type="button" name="Enviar" value="ENVIAR">	
+			</div>
+		</div>			
 
-	<!---FULLSCREEN-->
-	<div class="container container-md contenidoFullscreen">
-    <!--CONTENIDO--> 
-		<div class="container  contenidoAnimalesHome">
-			<div class="row position-absolute top-0 start-50 translate-middle contenidoTitulo">
-        	<h1 >Animales</h1>
-        	</div>	
-		  <div class="row">
-		    <div class="col align-self-start contenidoAnimalesHome__imagen">
-		      <img src="imagenes/perro.jpg" >
-		    </div>
-		    <div class="col align-self-center contenidoAnimalesHome__imagen">
-		      <img src="imagenes/gato.jpg">
-		    </div>
-		    <div class="col align-self-end contenidoAnimalesHome__imagen">
-		      <img  src="imagenes/cerdo.jpg">
-		    </div>
-		  </div>
-		</div>
-		<!--FIN CONTENIDO-->	
-	
-			<!--FOOTER-->
-  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
+
+
+
+
+
+
+
+	</div>
+	<!--FOOTER-->
+  		<footer class="footer mt-auto py-3 bg-light pieDeContacto ">
 		  <div class="container">
 		    <span class="text-muted textoColorsito">Copyright- Todos lo derechos reservados</span>
 		    <div class="row container-md">
@@ -80,10 +87,7 @@
 		    </div>
 		  </div>
 		</footer>
-		<!--FOOTER-->
-  </div>
-    <!---FIN FULLSCREEN-->
+		<!--FOOTER-->	
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--LINK BOOTSTRAP-->
 </body>
 </html>
