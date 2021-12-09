@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--git remote add origin https://github.com/CatrielZ/Animal-Labat.git
-			git push -u origin main-->
+	<!--git push -u origin main-->
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,78 +11,80 @@
 
 	<title>HOME</title>
 </head>
-<body>
-	<!--HEADER-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-	  <div class="container-fluid contenidoNav">
-	    <a class="navbar-brand" href="index.html"><!--HREF-->
-	      <img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
-	    </a>
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	      <ul class="navbar-nav">
-	        <li class="nav-item ">
-	          <a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
-	        </li>
-	        <li class="nav-item dropdown">
-	          <a class="nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	            Animales
-	          </a>
-	          <ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
-	            <li><a class="dropdown-item textoColorsito" href="#">Perro</a></li> <!--HREF-->
-	            <li><a class="dropdown-item textoColorsito" href="#">Gato</a></li> <!--HREF-->
-	            <li><a class="dropdown-item textoColorsito" href="#">Cerdo</a></li> <!--HREF-->
-	          </ul>
-	        </li>  
-	        <li class="nav-item">
-	          <a class="nav-link textoColorsito" href="contacto.html">Contacto</a><!--HREF-->
-	        </li>        
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-	<!--FIN HEADER-->
+	<body>
+		<!---FULLSCREEN-->	
+		<div class="container container-md contenidoFullscreen">
+			<!--HEADER-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+			  <div class="container-fluid contenidoNav">
+			    <a class="navbar-brand" href="index.html"><!--HREF-->
+			      <img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
+			    </a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			      <ul class="navbar-nav">
+			        <li class="nav-item ">
+			          <a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Animales
+			          </a>
+			          <ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
+			            <li><a class="dropdown-item textoColorsito" href="perro.html">Perro</a></li> <!--HREF-->
+			            <li><a class="dropdown-item textoColorsito" href="gato.html">Gato</a></li> <!--HREF-->
+			            <li><a class="dropdown-item textoColorsito" href="cerdo.html">Cerdo</a></li> <!--HREF-->
+			          </ul>
+			        </li>  
+			        <li class="nav-item">
+			          <a class="nav-link textoColorsito" href="contacto.html">Contacto</a><!--HREF-->
+			        </li>        
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+			<!--FIN HEADER-->
 
-	<!---FULLSCREEN-->
-	<div class="container container-md contenidoFullscreen">
-    <!--CONTENIDO--> 
-		<div class="container  contenidoAnimalesHome">
-			<div class="row position-absolute top-0 start-50 translate-middle contenidoTitulo">
-        	<h1 >Animales</h1>
-        	</div>	
-		  <div class="row">
-		    <div class="col align-self-start contenidoAnimalesHome__imagen">
-		      <img src="imagenes/perro.jpg" >
-		    </div>
-		    <div class="col align-self-center contenidoAnimalesHome__imagen">
-		      <img src="imagenes/gato.jpg">
-		    </div>
-		    <div class="col align-self-end contenidoAnimalesHome__imagen">
-		      <img  src="imagenes/cerdo.jpg">
-		    </div>
-		  </div>
-		</div>
-		<!--FIN CONTENIDO-->	
-	
+		
+
+	    <!--CONTENIDO--> 
+			<div class="container  contenidoAnimalesHome">
+				<div class="row position-absolute top-0 start-50 translate-middle contenidoTitulo">
+	        	<h1 >Animales</h1>
+	        	</div>	
+			  <div class="row container-xl mx-auto">
+			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
+			      <img src="imagenes/perro.jpg" >
+			    </div>
+			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
+			      <img src="imagenes/gato.jpg">
+			    </div>
+			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
+			      <img  src="imagenes/cerdo.jpg">
+			    </div>
+			  </div>
+			</div>
+			<!--FIN CONTENIDO-->	
+		
+				<!--FOOTER-->
+	  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
+			  <div class="container">
+			    <span class="text-muted textoColorsito">Copyright- Todos lo derechos reservados</span>
+			    <div class="row container-md">
+			    	<p>Siguenos en Nuestras redes</p>
+			    	<ul>
+			    		<li><a href="https://www.instagram.com/z.catriel/" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" >Instagram</a></li>
+			    		<li><a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/" class="text-decoration-none"><img class ="icon" src="imagenes/linkedin.png" height="23" width="24" >Linkedin</a></li>
+			    	</ul>	
+			    </div>
+			  </div>
+			</footer>
 			<!--FOOTER-->
-  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
-		  <div class="container">
-		    <span class="text-muted textoColorsito">Copyright- Todos lo derechos reservados</span>
-		    <div class="row container-md">
-		    	<p>Siguenos en Nuestras redes</p>
-		    	<ul>
-		    		<li><a href="https://www.instagram.com/z.catriel/"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" >Instagram</a></li>
-		    		<li><a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/"><img class ="icon" src="imagenes/linkedin.png" height="23" width="24" >Linkedin</a></li>
-		    	</ul>	
-		    </div>
-		  </div>
-		</footer>
-		<!--FOOTER-->
-  </div>
-    <!---FIN FULLSCREEN-->
+	  </div>
+	    <!---FIN FULLSCREEN-->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--LINK BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--LINK BOOTSTRAP-->
 </body>
 </html>
