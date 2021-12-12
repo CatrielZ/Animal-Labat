@@ -1,5 +1,9 @@
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
 .contenidoNav{ 
-	background-color: #dfe1ac6e;
+	background-color: #dfe1acf2; /*#dfe1ac6e;*/
 	position: fixed;
 	top: 0;	
 	z-index: 1;
@@ -37,7 +41,7 @@
 .contenidoTitulo h1{
 	font-size: 5rem;
 	padding: 0 1em;
-	background-color: #F05F31 ;
+	background-color: #f05f31a1 ;
 	color: #fff;
 
 }
