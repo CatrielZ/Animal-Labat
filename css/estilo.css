@@ -18,7 +18,8 @@ body{
 .dropdownColorsito{
 	background-color: #dfe1ac6e ;
 }
-.navbar-brand img:hover{
+
+.navbar-brand img:hover, .botonEnviar input:hover {
 	transform: scale(1.1);		
 	border-radius: 44px;
 }
@@ -75,6 +76,19 @@ body{
 }
 .contenidoContacto{
 	margin-top: 100px;
+}
+.botonEnviar input, .perroCocina{
+	transition: all 250ms ease-in-out;
+}
+.botonEnviar input:hover {
+	transform: scale(1.1);		
+	border-radius: 50px;
+	background-color: #dfe1acf2;
+}
+.perroCocina:hover{
+	transform: scale(1.1);
+	
+
 }
 
 
