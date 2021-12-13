@@ -74,6 +74,26 @@ body{
 	border-radius: 44px;
 	border: 2px solid #F05F31;
 }
+.gatoImagenAnimacion{
+	animation-name: gato;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+}
+
+@keyframes gato {
+	0%{
+		top: 100%;
+		margin-top: -50px;
+	
+	}
+	
+	100%{
+		top: 0;
+	
+	}
+	
+}
 .contenidoContacto{
 	margin-top: 100px;
 }
@@ -117,7 +137,6 @@ body{
 		padding: 0 1em;
 
 	}
-	
 
 }
 
