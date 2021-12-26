@@ -1,144 +1,174 @@
-body{
-	font-family: 'Nunito', sans-serif;
+.font-weight-ligth {
+  font-weight: 300;
 }
 
-.contenidoNav{ 
-	background-color: #dfe1acf2; /*#dfe1ac6e;*/
-	position: fixed;
-	top: 0;	
-	z-index: 1;
-	border-radius: 50px;
-
-}
-.navbar-brand img{
-	border-radius: 50px;
-
-	transition: all 250ms ease-in-out;
-}
-.dropdownColorsito{
-	background-color: #dfe1ac6e ;
+.font-weight-regular {
+  font-weight: 400;
 }
 
-.navbar-brand img:hover, .botonEnviar input:hover {
-	transform: scale(1.1);		
-	border-radius: 44px;
+.font-weight-medium {
+  font-weight: 500;
 }
-.textoColorsito{
-	color: #F05F31 !important;
-	font-size: 1.25rem;
-}
-.contenidoFullscreen{
-	background: url(../imagenes/fullscreen3.jpg);
-	height: 100%;
-	z-index: 1000;
 
-	
+* {
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.contenidoNav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.contenidoNav img {
+  border-radius: 50px;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.contenidoNav img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 44px;
+}
+
+.dropdownColorsito, .contenidoNav {
+  background-color: #dfe1acf2;
+}
+
+.textoColorsito {
+  color: #F05F31 !important;
+  font-size: 1.25rem;
+}
+
+.contenidoFullscreen {
+  background: url(../imagenes/fullscreen3.jpg);
+  height: 100%;
+  z-index: 1000;
+}
+
+.contenidoAnimalesHome, .contenidoContacto {
+  margin-top: 100px;
+}
+
 .contenidoTitulo {
-	margin-top: 150px;
-	
+  margin-top: 150px;
+}
 
+.contenidoTitulo h1 {
+  font-size: 5rem;
+  padding: 0 1em;
+  background-color: #f05f31a1;
+  color: #fff;
 }
-.contenidoTitulo h1{
-	font-size: 5rem;
-	padding: 0 1em;
-	background-color: #f05f31a1 ;
-	color: #fff;
 
+@media (max-width: 768px) {
+  .contenidoTitulo h1 {
+    font-size: 3rem;
+    padding: 0 1em;
+  }
 }
-.cotenidoSubtitulo{
-	margin-top: 30px;
-}
-.cotenidoSubtitulo h2{
-	font-size: 2.5rem;
-	padding: 0 1em;
-	color: #F05F31
 
+.cotenidoSubtitulo {
+  margin-top: 30px;
 }
-.contenidoAnimalesHome{
-	margin-top: 100px;
 
+.cotenidoSubtitulo h2, .cotenidoSubtitulo h3 {
+  font-size: 2.5rem;
+  padding: 0 1em;
+  color: #F05F31;
 }
-.contenidoAnimalesHome__imagen{
-	transition: all 250ms ease-in-out;
-	margin-top: 40px;
 
+@media (max-width: 768px) {
+  .cotenidoSubtitulo h2, .cotenidoSubtitulo h3 {
+    font-size: 1.5rem;
+    padding: 0 1em;
+  }
 }
-.contenidoAnimalesHome__imagen img{
-	height: 400px;
-	margin: 55px;
 
+.contenidoAnimalesHome__imagen {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  margin-top: 40px;
 }
-.contenidoAnimalesHome__imagen img:hover{
-	transform: scale(1.1);		
-	border-radius: 44px;
-	border: 2px solid #F05F31;
+
+.contenidoAnimalesHome__imagen img {
+  height: 400px;
+  margin: 55px;
 }
-.gatoImagenAnimacion{
-	animation-name: gato;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-duration: 2s;
+
+.contenidoAnimalesHome__imagen img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 44px;
+  border: 2px solid #F05F31;
+}
+
+.gatoImagenAnimacion {
+  -webkit-animation-name: gato;
+          animation-name: gato;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes gato {
+  0% {
+    top: 100%;
+    margin-top: -50px;
+  }
+  100% {
+    top: 0;
+  }
 }
 
 @keyframes gato {
-	0%{
-		top: 100%;
-		margin-top: -50px;
-	
-	}
-	
-	100%{
-		top: 0;
-	
-	}
-	
+  0% {
+    top: 100%;
+    margin-top: -50px;
+  }
+  100% {
+    top: 0;
+  }
 }
-.contenidoContacto{
-	margin-top: 100px;
+
+.botonEnviar input {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
-.botonEnviar input, .perroCocina{
-	transition: all 250ms ease-in-out;
-}
+
 .botonEnviar input:hover {
-	transform: scale(1.1);		
-	border-radius: 50px;
-	background-color: #dfe1acf2;
-}
-.perroCocina:hover{
-	transform: scale(1.1);
-	
-
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-radius: 50px;
+  background-color: #dfe1acf2;
 }
 
+.perroCocina {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
 
-/*.contenidoPerro, .contenidoGato, .contenidoCerdo{
-	margin-top: 50px;
-}*/
-
+.perroCocina:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 
 .pieDeContacto {
-	border-radius: 50px;
-	background-color: #dfe1ac6e !important;
-
-}
-.pieDeContacto ul li{
-	list-style-type: none;
+  border-radius: 50px;
+  background-color: #dfe1acf2 !important;
 }
 
-@media (max-width: 768px){
-	.contenidoTitulo h1{
-		font-size: 3rem;
-		padding: 0 1em;
-		
-	}
-	.cotenidoSubtitulo h2{
-		font-size: 1.5rem;
-		padding: 0 1em;
-
-	}
-
+.pieDeContacto ul li {
+  font-weight: 500;
+  list-style-type: none;
 }
-
-
-
+/*# sourceMappingURL=estilo.css.map */

@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!--git push -u origin main-->
+	<head>
+		<!--git push -u origin main-->
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="shortcut icon"  href="imagenes/iconPestaña.png" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Podes contactarnos">
+		<meta name="keywords" content="Contacto, Mensaje, Complete el formulario">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="shortcut icon"  href="imagenes/iconPestaña.png" />
 
-	<title>Contacto</title>
-</head>
+		<title>Contacto</title>
+	</head>
 	<body>
-	
-			<!---FULLSCREEN-->	
+		<!---FULLSCREEN-->	
 		<div class="container-fluid  contenidoFullscreen">
 			<!--HEADER-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
@@ -31,7 +32,7 @@
 			          <a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
 			        </li>
 			        <li class="nav-item dropdown">
-			          <a class="nav-link dropdown-toggle textoColorsito" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			          <a class=" fw-bold nav-link dropdown-toggle textoColorsito" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 			            Animales
 			          </a>
 			          <ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
@@ -47,50 +48,40 @@
 			    </div>
 			  </div>
 			</nav>
-			<!--FIN HEADER-->
-	    
-	    <!--contenido-->
-	  	<div class="conteiner contenidoContacto">
-			<div class="row">
-				<div class="text-center  cotenidoSubtitulo ">
-					<h2 class=" text-center  ">Complete el formulario</h2>
+			<!--FIN HEADER-->	    
+			<!--contenido-->
+			<div class="conteiner contenidoContacto">
+				<div class="row">
+					<div class="text-center  cotenidoSubtitulo ">
+						<h2 class=" text-center fw-bold">Complete el formulario</h2>
+					</div>
+							
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+					</div>
 				</div>
-			   			
-			  <div class="col">
-			    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-			  </div>
-			  <div class="col">
-			    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-			  </div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label fw-bold">Consulta</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<div class="botonEnviar">
+					<input type="button" name="Enviar" value="ENVIAR">	
+				</div>
 			</div>
-			<div class="mb-3">
-			  <label for="exampleFormControlInput1" class="form-label">Email</label>
-			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-			</div>
-			<div class="mb-3">
-			  <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			</div>
-			<div class="botonEnviar">
-			    <input type="button" name="Enviar" value="ENVIAR">	
-			</div>
-		</div>
-				
-
-
-
-
-
-
-
-
-	
-		<!--FOOTER-->
+			<!--FIN contenido-->	
+			<!--FOOTER-->
 	  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
 			  <div class="container">
 			    <span class="text-muted textoColorsito">Copyright- Todos lo derechos reservados</span>
 			    <div class="row container-md">
-			    	<p>Siguenos en Nuestras redes</p>
+			    	<p class="fw-bold">Siguenos en Nuestras redes</p>
 			    	<ul>
 			    		<li><a href="https://www.instagram.com/z.catriel/" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" >Instagram</a></li>
 			    		<li><a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/" class="text-decoration-none"><img class ="icon" src="imagenes/linkedin.png" height="23" width="24" >Linkedin</a></li>
@@ -99,7 +90,8 @@
 			  </div>
 			</footer>
 			<!--FOOTER-->	
-	</div>	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--LINK BOOTSTRAP-->
-</body>
+		</div>
+		<!---FIN FULLSCREEN-->		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--LINK BOOTSTRAP-->
+	</body>
 </html>

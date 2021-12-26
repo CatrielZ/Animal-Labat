@@ -1,0 +1,14 @@
+@mixin fondo($color: $amarillo){
+    background-color: $color;
+}
+
+@mixin LetraT ($font-size, $padding){
+    font-size: $font-size;
+    padding: $padding;
+}
+@each $k, $v in $miMap {
+    .font-weight-#{$k}{
+        font-weight:$v;
+    }
+    
+}
