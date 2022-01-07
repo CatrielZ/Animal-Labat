@@ -140,6 +140,23 @@ body {
   }
 }
 
+.carruselRazaGato p {
+  font-size: 2rem;
+  padding: 0 1em;
+}
+
+@media (max-width: 768px) {
+  .carruselRazaGato p {
+    font-size: 0.8rem;
+    padding: 0 1em;
+  }
+}
+
+.carruselRazaGato img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .botonEnviar input {
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
