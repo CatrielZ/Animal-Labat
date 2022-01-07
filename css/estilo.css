@@ -38,7 +38,7 @@ body {
 }
 
 .dropdownColorsito, .contenidoNav {
-  background-color: #dfe1acf2;
+  background-color: #dee195e3;
 }
 
 .textoColorsito {
@@ -166,7 +166,7 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   border-radius: 50px;
-  background-color: #dfe1acf2;
+  background-color: #dee195e3;
 }
 
 .perroCocina {
@@ -181,7 +181,7 @@ body {
 
 .pieDeContacto {
   border-radius: 50px;
-  background-color: #dfe1acf2 !important;
+  background-color: #dee195e3 !important;
 }
 
 .pieDeContacto ul li {
