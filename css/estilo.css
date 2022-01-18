@@ -1,3 +1,5 @@
+/*$amarillo: #dee195e3;*/
+/*#ffd67c*/
 .font-weight-ligth {
   font-weight: 300;
 }
@@ -37,12 +39,12 @@ body {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
   border-radius: 100px;
-  -webkit-box-shadow: 0px 0px 15px 15px #dee195e3;
-          box-shadow: 0px 0px 15px 15px #dee195e3;
+  -webkit-box-shadow: 0px 0px 15px 15px #ffd67cc9;
+          box-shadow: 0px 0px 15px 15px #ffd67cc9;
 }
 
 .dropdownColorsito, .contenidoNav {
-  background-color: #dee195e3;
+  background-color: #ffd67cc9;
 }
 
 .textoColorsito {
@@ -73,7 +75,7 @@ body {
 }
 
 .otrosSitio a .boton:hover {
-  color: #dee195e3;
+  color: #ffd67cc9;
   background-color: #000;
 }
 
@@ -195,7 +197,7 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   border-radius: 50px;
-  background-color: #dee195e3;
+  background-color: #ffd67cc9;
 }
 
 .logoEnvio {
@@ -240,7 +242,7 @@ body {
 
 .pieDeContacto {
   border-radius: 50px;
-  background-color: #dee195e3 !important;
+  background-color: #ffd67cc9 !important;
 }
 
 .pieDeContacto ul li {
