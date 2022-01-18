@@ -20,6 +20,7 @@ body {
 }
 
 .contenidoNav {
+  border-radius: 100px;
   position: fixed;
   top: 0;
   right: 0;
@@ -59,11 +60,29 @@ body {
   margin-top: 100px;
 }
 
+.otrosSitio {
+  border-radius: 50px;
+}
+
+.otrosSitio a {
+  color: #000;
+}
+
+.otrosSitio a img {
+  border-radius: 100px;
+}
+
+.otrosSitio a .boton:hover {
+  color: #dee195e3;
+  background-color: #000;
+}
+
 .contenidoTitulo {
   margin-top: 150px;
 }
 
 .contenidoTitulo h1 {
+  border-radius: 100px;
   font-size: 5rem;
   padding: 0 1em;
   background-color: #f05f31a1;
@@ -81,17 +100,21 @@ body {
   margin-top: 30px;
 }
 
-.cotenidoSubtitulo h2, .cotenidoSubtitulo h3 {
+.cotenidoSubtitulo h2, .cotenidoSubtitulo h3, .cotenidoSubtitulo p {
   font-size: 2.5rem;
   padding: 0 1em;
   color: #F05F31;
 }
 
 @media (max-width: 768px) {
-  .cotenidoSubtitulo h2, .cotenidoSubtitulo h3 {
+  .cotenidoSubtitulo h2, .cotenidoSubtitulo h3, .cotenidoSubtitulo p {
     font-size: 1.5rem;
     padding: 0 1em;
   }
+}
+
+.borde img {
+  border-radius: 100px;
 }
 
 .contenidoAnimalesHome__imagen {
@@ -101,6 +124,7 @@ body {
 }
 
 .contenidoAnimalesHome__imagen img {
+  border-radius: 50px;
   height: 400px;
   margin: 55px;
 }
@@ -108,7 +132,7 @@ body {
 .contenidoAnimalesHome__imagen img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  border-radius: 44px;
+  border-radius: 100px;
   -webkit-filter: saturate(200%);
           filter: saturate(200%);
   border: 2px solid #F05F31;
@@ -211,6 +235,7 @@ body {
 .perroCocina:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  border-radius: 100px;
 }
 
 .pieDeContacto {
@@ -221,5 +246,9 @@ body {
 .pieDeContacto ul li {
   font-weight: 500;
   list-style-type: none;
+}
+
+.pieDeContacto ul li a {
+  color: #000;
 }
 /*# sourceMappingURL=estilo.css.map */
