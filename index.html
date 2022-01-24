@@ -19,81 +19,84 @@
 		<div class="container-fluid  contenidoFullscreen">
 			<!--HEADER-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-			  <div class="container-fluid contenidoNav">
-			    <a class="navbar-brand" href="index.html"><!--HREF-->
-			      <img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
-			    </a>
-			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			      <span class="navbar-toggler-icon"></span>
-			    </button>
-			    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			      <ul class="navbar-nav">
-			        <li class="nav-item ">
-			          <a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
-			        </li>
-			        <li class="nav-item dropdown fw-bold">
-			          <a class="nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-			            Animales
-			          </a>
-			          <ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
-			            <li><a class="dropdown-item textoColorsito" href="perro.html">Perro</a></li> <!--HREF-->
-			            <li><a class="dropdown-item textoColorsito" href="gato.html">Gato</a></li> <!--HREF-->
-			            <li><a class="dropdown-item textoColorsito" href="cerdo.html">Cerdo</a></li> <!--HREF-->
-			          </ul>
-			        </li>  
-			        <li class="nav-item">
-			          <a class="nav-link textoColorsito" href="contacto.html">Contacto</a><!--HREF-->
-			        </li>        
-			      </ul>
-			    </div>
+				<div class="container-fluid contenidoNav fw-bold">
+					<a class="navbar-brand" href="index.html"><!--HREF-->
+						<img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
+							</li>
+							<li class="nav-item dropdown fw-bold">
+								<a class="nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">MASCOTAS</a>
+								<ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item textoColorsito" href="perro.html">Perro</a></li> <!--HREF-->
+									<li><a class="dropdown-item textoColorsito" href="gato.html">Gato</a></li> <!--HREF-->
+									<li><a class="dropdown-item textoColorsito" href="cerdo.html">Cerdo</a></li> <!--HREF-->
+								</ul>
+							</li>  
+							<li class="nav-item">
+								<a class="nav-link textoColorsito" href="contacto.html">Contacto</a><!--HREF-->
+							</li>        
+						</ul>
+					</div>
 			  </div>
 			</nav>
 			<!--FIN HEADER-->		
-	        <!--CONTENIDO--> 
+	    	<!--CONTENIDO--> 
 			<div class="container-fluid text-center  contenidoAnimalesHome">
 				<div class="row text-center px-md-5 mx-md-5 contenidoTitulo">
-	        	<h1 class="fw-bold" >Mascotas</h1>
-	        	</div>	
-			  <div class="row  justify-content-evenly  text-center">
-			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
-			      <a href="perro.html"><img src="imagenes/perro.jpg" ></a>
-			  </div>
-			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen gatoImagenAnimacion ">
-			     <a href="gato.html"> <img src="imagenes/gato.jpg"> </a>
-
-			    </div>
-			    <div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ">
-			      <a href="cerdo.html"><img  src="imagenes/cerdo.jpg"> </a>
-			    </div>
-			  </div>
+					<h1 class="fw-bold" >Mascotas</h1>
+				</div>	
+				<div class="row  justify-content-evenly  text-center">
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
+						<a href="perro.html"><img src="imagenes/perro.jpg" ></a>
+					</div>
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen gatoImagenAnimacion ">
+						<a href="gato.html"> <img src="imagenes/gato.jpg"> </a>
+					</div>
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ">
+						<a href="cerdo.html"><img  src="imagenes/cerdo.jpg"> </a>
+					</div>
+				</div>
 			</div>
-			<div class="container container-md">
-				<div class="cotenidoSubtitulo m-5 px-5">
+			<!--Linea Separador-->
+			<br><br>
+			<div class="conteiner p-5 my-5 ">
+				<div class=" lineaSeparacion"></div>
+			</div> 
+			<br><br>
+			<!--Fin Linea Separador-->
+			<div class="container my-5">
+				<div class="cotenidoSubtitulo m-md-5 px-md-5">
 					<h2 class="fw-bold">¿Qué es una mascota?</h2>
 				</div>
-
 				<!--Carrusel-->
 				<div id="carouselExampleSlidesOnly" class="carousel slide m-5 borde" data-bs-ride="carousel">
-				  <div class="carousel-inner">
-				    <div class="carousel-item active">
-				      <img src="imagenes/perroCarrusel.jpg" class="d-block w-100" alt="dog">
-				    </div>
-				    <div class="carousel-item">
-				      <img src="imagenes/cerditosCarrusel.jpg" class="d-block w-100" alt="pig">
-				    </div>
-				    <div class="carousel-item">
-				      <img src="imagenes/gatosCarrusel.jpg" class="d-block w-100" alt="cat">
-				    </div>
-				     <div class="carousel-item">
-				      <img src="imagenes/cerditosCarrusel2.jpg" class="d-block w-100" alt="pig">
-				    </div>
-				    <div class="carousel-item">
-				      <img src="imagenes/gatosCarrusel2.jpg" class="d-block w-100" alt="cat">
-				    </div>
-				     <div class="carousel-item">
-				      <img src="imagenes/perroCarrusel2.jpg" class="d-block w-100" alt="dog">
-				    </div>
-				  </div>
+				  	<div class="carousel-inner">
+				    	<div class="carousel-item active">
+				      		<img src="imagenes/perroCarrusel.jpg" class="d-block w-100" alt="dog">
+				   		</div>
+				    	<div class="carousel-item">
+				      		<img src="imagenes/cerditosCarrusel.jpg" class="d-block w-100" alt="pig">
+				    	</div>
+						<div class="carousel-item">
+							<img src="imagenes/gatosCarrusel.jpg" class="d-block w-100" alt="cat">
+						</div>
+						<div class="carousel-item">
+							<img src="imagenes/cerditosCarrusel2.jpg" class="d-block w-100" alt="pig">
+						</div>
+						<div class="carousel-item">
+							<img src="imagenes/gatosCarrusel2.jpg" class="d-block w-100" alt="cat">
+						</div>
+						<div class="carousel-item">
+							<img src="imagenes/perroCarrusel2.jpg" class="d-block w-100" alt="dog">
+						</div>
+					</div>
 				</div>
 				<!-- FIN Carrusel-->
 				<div class="text-center m-5">
@@ -111,7 +114,13 @@
 					</p>
 				</div>				
 			</div>
-			<br><br><br><br><br><br>
+			<br><br>
+			<!--Linea Separador-->
+			<div class="conteiner p-5 my-5 ">
+				<div class=" lineaSeparacion"></div>
+			</div> 
+			<!--Fin Linea Separador-->
+			<br><br>
 			<div class="conteiner-fuid m-5"> 
 				<div class="conteiner my-5 text-center cotenidoSubtitulo">
 					<p class="fw-bold">Información de otros sitios</p>
@@ -178,7 +187,7 @@
 			<!--FOOTER-->
 	  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
 			  <div class="container">
-			    <span class="text-muted textoColorsito">Copyright- Todos los derechos reservados</span>
+			    <span class="text-muted fw-bold">Copyright- Todos los derechos reservados</span>
 			    <div class="row container-md">
 			    	<p class="fw-bold">Siguenos en Nuestras redes</p>
 			    	<ul>

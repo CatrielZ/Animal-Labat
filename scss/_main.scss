@@ -29,12 +29,18 @@ body{
 .textoColorsito{
 	color: $naranja !important;
 	font-size: 1.25rem;
-    
+    &:hover{
+        border-bottom: 2px double $naranja;
+        border-radius: 100px;
+    }
 }
 .contenidoFullscreen{
 	background: url(../imagenes/fullscreen3.jpg);
 	height: 100%;
 	z-index: 1000;	
+}
+.lineaSeparacion{
+    border-bottom: 3px double $amarillo;
 }
 .contenidoAnimalesHome, .contenidoContacto{
 	margin-top: 100px;
@@ -45,6 +51,9 @@ body{
         color: #000;
         img{
             border-radius: 100px;
+            &:hover{
+                box-shadow: 0px 0px 5px 5px $naranja;
+            }
         }
         .boton{ 
             &:hover {
@@ -67,8 +76,7 @@ body{
     }
 }
 .cotenidoSubtitulo{
-	margin-top: 30px;
-   
+	margin-top: 30px; 
     h2, p{
         @include LetraT(2.5rem, 0 1em);   
         color: $naranja;
@@ -81,9 +89,9 @@ body{
     }         
 } 
 .borde{
-    img{
-    border-radius: 100px;
-}
+    img,video{
+        border-radius: 100px;
+    }
 }
 .contenidoAnimalesHome__imagen{
 	transition: all 3s ease-in-out;
@@ -96,7 +104,7 @@ body{
             transform: scale(1.1);		
             border-radius: 100px;
             filter: saturate(200%);;
-            border: 2px solid $naranja;
+            box-shadow: 0px 0px 10px 10px $naranja;
         }
     }
 }
@@ -165,15 +173,40 @@ body{
         border-radius: 100px;  
     }
 }
+.vCerdo{
+    background-color: $amarillo;
+    video{
+    width:100%;
+    max-width: 640px;
+    }    
+}
+.bCerdo{
+    a{  
+        border: 2px double $naranja;
+        color: $naranja;
+        &:hover{
+            border: 2px double #fff;
+            color: #fff;
+        }
+    }
+}
 .pieDeContacto {
 	border-radius: 50px;
 	background-color: $amarillo !important;
+    span{
+        color: $naranja !important;
+    }
     ul{
         li{
             font-weight: map-get($miMap, medium );
             list-style-type: none;
             a{
-                color:#000
+                color:#000;
+                &:hover{
+                    color: $naranja;
+                    border-bottom: 2px double $naranja;
+                    border-radius: 100px;
+                }
             }
         }
     }

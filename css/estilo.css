@@ -52,10 +52,19 @@ body {
   font-size: 1.25rem;
 }
 
+.textoColorsito:hover {
+  border-bottom: 2px double #F05F31;
+  border-radius: 100px;
+}
+
 .contenidoFullscreen {
   background: url(../imagenes/fullscreen3.jpg);
   height: 100%;
   z-index: 1000;
+}
+
+.lineaSeparacion {
+  border-bottom: 3px double #ffd67cc9;
 }
 
 .contenidoAnimalesHome, .contenidoContacto {
@@ -72,6 +81,11 @@ body {
 
 .otrosSitio a img {
   border-radius: 100px;
+}
+
+.otrosSitio a img:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px #F05F31;
+          box-shadow: 0px 0px 5px 5px #F05F31;
 }
 
 .otrosSitio a .boton:hover {
@@ -115,7 +129,7 @@ body {
   }
 }
 
-.borde img {
+.borde img, .borde video {
   border-radius: 100px;
 }
 
@@ -137,7 +151,8 @@ body {
   border-radius: 100px;
   -webkit-filter: saturate(200%);
           filter: saturate(200%);
-  border: 2px solid #F05F31;
+  -webkit-box-shadow: 0px 0px 10px 10px #F05F31;
+          box-shadow: 0px 0px 10px 10px #F05F31;
 }
 
 .gatoImagenAnimacion {
@@ -240,9 +255,32 @@ body {
   border-radius: 100px;
 }
 
+.vCerdo {
+  background-color: #ffd67cc9;
+}
+
+.vCerdo video {
+  width: 100%;
+  max-width: 640px;
+}
+
+.bCerdo a {
+  border: 2px double #F05F31;
+  color: #F05F31;
+}
+
+.bCerdo a:hover {
+  border: 2px double #fff;
+  color: #fff;
+}
+
 .pieDeContacto {
   border-radius: 50px;
   background-color: #ffd67cc9 !important;
+}
+
+.pieDeContacto span {
+  color: #F05F31 !important;
 }
 
 .pieDeContacto ul li {
@@ -252,5 +290,11 @@ body {
 
 .pieDeContacto ul li a {
   color: #000;
+}
+
+.pieDeContacto ul li a:hover {
+  color: #F05F31;
+  border-bottom: 2px double #F05F31;
+  border-radius: 100px;
 }
 /*# sourceMappingURL=estilo.css.map */
