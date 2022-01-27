@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon"  href="imagenes/iconPestaña.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 	<title>Perro</title>
 </head>
@@ -47,11 +48,11 @@
 		<div class="container-fluid mb-5 ">
 			<div class="row">
 				<div class="col-12  text-center align-items-center contenidoTitulo">
-					<h1 class="fw-bold">Perros</h1>
+					<h1 class="fw-bold wow animate__animated animate__pulse anima">Perros</h1>
 				</div>
 			</div>
 			<div class="row flex-md-row-reverse text-center align-items-center   ">
-				<div class=" col-12 col-md-6 my-5 borde">
+				<div class=" col-12 col-md-6 my-5 borde wow animate__animated animate__pulse anima">
 					<img class="img-fluid" src="imagenes/perroFoto.jpg">
 				</div>		
 				<div class="col-12 col-md-6">
@@ -171,16 +172,37 @@
 		</div>
 		<br><br><br><br>
 		<!--FOOTER-->
-		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
-			<div class="container">
-			  <span class="text-muted fw-bold">Copyright- Todos los derechos reservados</span>
-			  <div class="row container-md">
-				  <p class="fw-bold">Siguenos en Nuestras redes</p>
-				  <ul>
-					  <li><a href="https://www.instagram.com/z.catriel/" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" >Instagram</a></li>
-					  <li><a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/" class="text-decoration-none"><img class ="icon" src="imagenes/linkedin.png" height="23" width="24" >Linkedin</a></li>
-				  </ul>	
-			  </div>
+		<footer class="footer my-5 py-3 pieDeContacto ">
+			<div class="container my-5">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-4 text-center my-3">
+						<span class="text-muted fw-bold">Copyright- Todos los derechos reservados</span>
+						<div class="row container-md">
+							<p class="fw-bold">Siguenos en Nuestras redes</p>
+							<div class="col-12">
+								<a href="https://instagram.com/mascotasenadopcionargentina?utm_medium=copy_link" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" ></a>
+								<a href="https://www.facebook.com/groups/632662873514251" class="text-decoration-none"><img class ="icon" src="imagenes/facebook.png" height="23" width="24" ></a>
+								<a href="https://web.whatsapp.com" class="text-decoration-none"><img class ="icon" src="imagenes/whatsapp.png" height="23" width="24" ></a>
+							</div>
+							<a href="tusmascotas@gmail.com">tusmascota@gmail.com</a>
+							<p><a href="https://web.whatsapp.com">+541166168945</a></p>	
+						</div>
+					</div>
+					<div class="col-12 col-md-4 text-center my-3">
+						<p class="fw-bold"> CONTACTANOS </p>
+						<div class="col-12 p-1 ">
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+						</div>
+						<div class="botonEnviar col-12 p-1">
+							<a href="contacto.html"><input type="button" name="Enviar" value="ENVIAR"></a>	
+						</div>	
+					</div>
+					<div class="col-12 col-md-4 text-center borde ImagenAnimacion">
+						<a  href="index.html"><!--HREF-->
+							<img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
+						</a>
+					</div>	
+				</div>	
 			</div>
 		</footer>
 		<!-- Fin FOOTER-->

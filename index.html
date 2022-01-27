@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="shortcut icon"  href="imagenes/iconPestaña.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 	<title>Home</title>
 </head>
@@ -19,7 +20,7 @@
 		<div class="container-fluid  contenidoFullscreen">
 			<!--HEADER-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-				<div class="container-fluid contenidoNav fw-bold">
+				<div class="container-fluid contenidoNav">
 					<a class="navbar-brand" href="index.html"><!--HREF-->
 						<img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
 					</a>
@@ -31,8 +32,8 @@
 							<li class="nav-item ">
 								<a class="nav-link active textoColorsito " aria-current="page" href="index.html">Home</a> <!--HREF-->
 							</li>
-							<li class="nav-item dropdown fw-bold">
-								<a class="nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">MASCOTAS</a>
+							<li class="nav-item dropdown">
+								<a class=" fw-bold nav-link dropdown-toggle textoColorsito " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Animales</a>
 								<ul class="dropdown-menu dropdownColorsito" aria-labelledby="navbarDropdownMenuLink">
 									<li><a class="dropdown-item textoColorsito" href="perro.html">Perro</a></li> <!--HREF-->
 									<li><a class="dropdown-item textoColorsito" href="gato.html">Gato</a></li> <!--HREF-->
@@ -44,22 +45,22 @@
 							</li>        
 						</ul>
 					</div>
-			  </div>
+				</div>
 			</nav>
 			<!--FIN HEADER-->		
 	    	<!--CONTENIDO--> 
-			<div class="container-fluid text-center  contenidoAnimalesHome">
+			<div class="container-fluid text-center  contenidoAnimalesHome" id="inicio">
 				<div class="row text-center px-md-5 mx-md-5 contenidoTitulo">
-					<h1 class="fw-bold" >Mascotas</h1>
+					<h1 class="fw-bold wow animate__animated animate__pulse anima" >Mascotas</h1>
 				</div>	
 				<div class="row  justify-content-evenly  text-center">
-					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen">
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ImagenAnimacion">
 						<a href="perro.html"><img src="imagenes/perro.jpg" ></a>
 					</div>
-					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen gatoImagenAnimacion ">
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ImagenAnimacion ">
 						<a href="gato.html"> <img src="imagenes/gato.jpg"> </a>
 					</div>
-					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ">
+					<div class="col-12 col-md-3 text-center contenidoAnimalesHome__imagen ImagenAnimacion ">
 						<a href="cerdo.html"><img  src="imagenes/cerdo.jpg"> </a>
 					</div>
 				</div>
@@ -99,7 +100,7 @@
 					</div>
 				</div>
 				<!-- FIN Carrusel-->
-				<div class="text-center m-5">
+				<div class="text-center m-5 dropdownColorsito p-3">
 					<p class="fw-bold">
 						Las mascotas son animales domésticos, también son llamados animales de compañía y como su nombre lo indica son conservados por sus dueños para formar parte de la familia, disminuir la soledad y traer la alegría a sus hogares. Las mascotas alegran nuestros días, nos ofrecen compañía y algunas de ellas incluso pueden llegar a ser aliadas para nosotros en la ejecución de tareas diarias si se les da un entrenamiento correcto.
 						Recientes estudios han demostrado que tener una mascota en casa permite contrarrestar el stress, disminuye nuestra presión arterial cada vez que las acariciamos, incrementar el autoestima al ponerte en el papel de su “líder” y son una excelente fuente de lecciones de  responsabilidad y sensibilidad a los niños, entre otros muchos beneficios.
@@ -114,15 +115,75 @@
 					</p>
 				</div>				
 			</div>
-			<br><br>
 			<!--Linea Separador-->
+			<br><br>
 			<div class="conteiner p-5 my-5 ">
 				<div class=" lineaSeparacion"></div>
 			</div> 
-			<!--Fin Linea Separador-->
 			<br><br>
+			<!--Fin Linea Separador-->
+			<div class="conteiner my-5 ">
+				<div class="fw-bold text-center cotenidoSubtitulo my-5 wow animate__ animate__lightSpeedInLeft anima animated" style="visibility: visible; animation-name: lightSpeedInLeft;">
+					<p>Sanitarios ecológicos para mascotas</p>
+				</div>
+				<div class="row m-1">
+					<div class="col-12 col-md-6 dropdownColorsito text-center fw-bold">
+						<div class="cotenidoSubtitulo">
+						<p class="wow animate__animated animate__lightSpeedInLeft anima">¿COMO FUNCIONA?</p>
+						</div>
+						<p>Las mascotas instintivamente buscan el pasto real. La hierba viva absorbe los líquidos y controla los olores de forma natural, convirtiendo el entrenamiento del sanitario en una experiencia fácil, sin estrés.
+							No es necesario limpieza o mantenimiento porque toda la unidad es completamente renovable. En función al PLAN que elijas reemplazamos el pasto 1, 2 o 4 veces por mes!
+							Podés elegir entre dos tamaños:
+							BOXI® Mediano (65x45x8cm) y BOXI® Grande (90x65x8cm).
+							En el primer envío recibís tu BOXI® de madera con el primer pasto fresco y después vas recibiendo los recambios según la frecuencia de tu suscripción.
+						</p>
+					</div>
+					<div class="col-12 col-md-6 borde text-center wow animate__animated animate__pulse anima">
+						<img src="imagenes/sanitario.jpg" alt="sanitario" class="img-fluid my-5">
+
+					</div>
+
+				</div>
+
+
+			</div>
+			<!--Linea Separador-->
+			<br><br>
+			<div class="conteiner p-5 my-5 ">
+				<div class=" lineaSeparacion"></div>
+			</div> 
+			<br><br>
+			<!--Fin Linea Separador-->
+			<div class="conteiner my-5">
+				<div class="row text-center">
+					<div class="col-12 cotenidoSubtitulo">
+						<p class="fw-bold wow animate__animated animate__slideInRight anima">Nosotros</p>
+					</div>
+					<div class="col-12  text-center my-5 borde">
+						<img class="img-fluid" src="imagenes/nosotros.jpg" alt="nosotros">
+					</div>
+					<div class="col-12  justify-content-center p-3 my-5 dropdownColorsito">
+						<p class="fw-bold text-center">…Somos con tú.
+
+							Amamos a nuestros pets, y los cuidamos con el mismo cariño y amor que nos cuidamos nosotros mismos. Nos apasiona ver que nuestros pets sean felices, estén saludables y que no les falte nada.
+							
+							Nuestra misión es compartir lo que hemos aprendido de otros, vivido en nuestras propias experiencias, y leído en investigaciones.
+							
+							Queremos que tengas todo el apoyo necesario en tu vida con tu mejor amigo/a, tu pet. Sabemos que de encontrarle valor a lo que te compartimos lo compartirás con tus seres queridos.
+							
+							Feliz petting </p>
+					</div>
+				</div>	
+			</div>
+			<!--Linea Separador-->
+			<br><br>
+			<div class="conteiner p-5 my-5 ">
+				<div class=" lineaSeparacion"></div>
+			</div> 
+			<br><br>
+			<!--Fin Linea Separador-->
 			<div class="conteiner-fuid m-5"> 
-				<div class="conteiner my-5 text-center cotenidoSubtitulo">
+				<div class="col-12 my-5 text-center cotenidoSubtitulo">
 					<p class="fw-bold">Información de otros sitios</p>
 				</div>
 				<div class="conteiner">
@@ -176,26 +237,46 @@
 							</div>
 						</a>
 						</div>
-						
-
 					</div>
-
-				</div>
-				
+				</div>	
 			</div>						
 			<!--FIN CONTENIDO-->			
 			<!--FOOTER-->
-	  		<footer class="footer mt-auto py-3 bg-light pieDeContacto d-flex justify-content-sm-center ">
-			  <div class="container">
-			    <span class="text-muted fw-bold">Copyright- Todos los derechos reservados</span>
-			    <div class="row container-md">
-			    	<p class="fw-bold">Siguenos en Nuestras redes</p>
-			    	<ul>
-			    		<li><a href="https://www.instagram.com/z.catriel/" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" >Instagram</a></li>
-			    		<li><a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/" class="text-decoration-none"><img class ="icon" src="imagenes/linkedin.png" height="23" width="24" >Linkedin</a></li>
-			    	</ul>	
-			    </div>
-			  </div>
+	  		<footer class="footer my-5 py-3 pieDeContacto ">
+				<div class="container my-5">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-4 text-center my-3">
+							<span class="text-muted fw-bold">Copyright- Todos los derechos reservados</span>
+							<div class="row container-md">
+								<p class="fw-bold">Siguenos en Nuestras redes</p>
+								<div class="col-12">
+									<a href="https://instagram.com/mascotasenadopcionargentina?utm_medium=copy_link" class="text-decoration-none"><img class ="icon" src="imagenes/instagram.png" height="23" width="24" ></a>
+									<a href="https://www.facebook.com/groups/632662873514251" class="text-decoration-none"><img class ="icon" src="imagenes/facebook.png" height="23" width="24" ></a>
+									<a href="https://web.whatsapp.com" class="text-decoration-none"><img class ="icon" src="imagenes/whatsapp.png" height="23" width="24" ></a>
+								</div>
+								<a href="tusmascotas@gmail.com">tusmascota@gmail.com</a>
+								<p><a href="https://web.whatsapp.com">+541166168945</a></p>	
+							</div>
+						</div>
+						<div class="col-12 col-md-4 text-center my-3">
+							<p class="fw-bold"> CONTACTANOS </p>
+							<div class="col-12 p-1 ">
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+							</div>
+							<div class="botonEnviar col-12 p-1">
+								<a href="contacto.html"><input type="button" name="Enviar" value="ENVIAR"></a>	
+							</div>	
+						</div>
+						<div class="col-12 col-md-4 text-center borde ImagenAnimacion">
+							<a  href="index.html"><!--HREF-->
+								<img src="imagenes/logo.jpg" alt="logo" width="120" height="100">
+							</a>
+							<div class="text-center fw-bold my-5">
+								<a href="#inicio" class="text-decoration-none my-5"><p class="boton">↑ MASCOTAS ↑</p></a>
+							</div>
+						</div>	
+					</div>	
+				</div>
 			</footer>
 			<!-- Fin FOOTER-->
 	  </div>

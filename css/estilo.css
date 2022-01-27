@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -155,34 +159,39 @@ body {
           box-shadow: 0px 0px 10px 10px #F05F31;
 }
 
-.gatoImagenAnimacion {
+.anima {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.ImagenAnimacion {
   -webkit-animation-name: gato;
           animation-name: gato;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 @-webkit-keyframes gato {
   0% {
-    top: 100%;
-    margin-top: -50px;
+    top: 0;
+    margin-top: 400px;
   }
   100% {
-    top: 0;
+    top: 100%;
   }
 }
 
 @keyframes gato {
   0% {
-    top: 100%;
-    margin-top: -50px;
+    top: 0;
+    margin-top: 400px;
   }
   100% {
-    top: 0;
+    top: 100%;
   }
 }
 
@@ -281,20 +290,23 @@ body {
 
 .pieDeContacto span {
   color: #F05F31 !important;
-}
-
-.pieDeContacto ul li {
   font-weight: 500;
-  list-style-type: none;
 }
 
-.pieDeContacto ul li a {
-  color: #000;
-}
-
-.pieDeContacto ul li a:hover {
+.pieDeContacto a .boton {
   color: #F05F31;
-  border-bottom: 2px double #F05F31;
+}
+
+.pieDeContacto a .boton:hover {
+  color: #ffd67cc9;
+  background-color: #000;
+}
+
+.pieDeContacto a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   border-radius: 100px;
+  -webkit-box-shadow: 0px 0px 10px 10px #ffd67cc9;
+          box-shadow: 0px 0px 10px 10px #ffd67cc9;
 }
 /*# sourceMappingURL=estilo.css.map */
